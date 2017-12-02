@@ -6,10 +6,10 @@ contents = '''
 <head>
   <meta content="text/html; charset=ISO-8859-1"
  http-equiv="content-type">
-  <title>Hello World Webpage</title>
+  <title>Virustotal Results Page</title>
 </head>
 <body>
-Hello, World!
+
 </body>
 </html>
 '''
