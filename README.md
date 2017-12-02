@@ -29,6 +29,10 @@ Running script example:
 I had 48 hours for this task.
 I had to go to work at that time so I had only 3 hours per day during 48 hour timerange.
 Technically speaking, this is the result of 6 hours work starting from scratch.
+
+I am still playing with this project for fun.
+Please do `git checkout dev` to see the progress.
+
 If you find any issues with the script, please feel free to contact me at any time.
 
 ## Contacts ##
