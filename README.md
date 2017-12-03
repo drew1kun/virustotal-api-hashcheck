@@ -16,25 +16,23 @@ Script was tested on MacOS 10.11.6
 ## Dependencies ##
 Install python with homebrew (pip will be installed automatically in this case):
 
-    `brew install python`
+    brew install python
 
 Install virustotal-api using pip:
 
-    `pip install virustotal-api`
+    pip install virustotal-api
 
 Install HTML.py module from [here:] (https://www.decalage.info/python/html#attachments)
 
-```
-curl -sSL http://www.decalage.info/files/HTML.py-0.04.zip > HTML.py-0.04.zip`
-unzip HTML.py-0.04.zip`
-cd HTML.py-0.04.zip`
-sudo python setup.py install`
-```
+    curl -sSL http://www.decalage.info/files/HTML.py-0.04.zip > HTML.py-0.04.zip`
+    unzip HTML.py-0.04.zip`
+    cd HTML.py-0.04.zip`
+    sudo python setup.py install`
 
 ## Usage ##
 Running script example:
 
-    `./virustotal.py sample_hash_input.txt`
+    python virustotal.py sample_hash_input.txt
 
 ## Other Info ##
 
