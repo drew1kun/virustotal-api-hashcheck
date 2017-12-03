@@ -3,9 +3,8 @@ This Python script allows to check list of hashes (provided in a form of text fi
 using their API
 
 script takes a text file as an argument and returns the info about the hashes in the following form:
-```
-hash_value (MD5)  | FORTINET detection names | Number of engines detected | Scan Date |
-```
+
+`hash_value (MD5)  | FORTINET detection names | Number of engines detected | Scan Date |`
 
 NOTE:
 Virustotal sets the quota - 4 API Queries per 1 minute, so the script is using 15 sec delay for each hash listed in
@@ -26,15 +25,16 @@ Install virustotal-api using pip:
 Install HTML.py module from [here:] (https://www.decalage.info/python/html#attachments)
 
 ```
-`curl -sSL http://www.decalage.info/files/HTML.py-0.04.zip > HTML.py-0.04.zip`
-`unzip HTML.py-0.04.zip`
-`cd HTML.py-0.04.zip`
-`sudo python setup.py install`
+curl -sSL http://www.decalage.info/files/HTML.py-0.04.zip > HTML.py-0.04.zip`
+unzip HTML.py-0.04.zip`
+cd HTML.py-0.04.zip`
+sudo python setup.py install`
 ```
 
 ## Usage ##
 Running script example:
-    `python ./virustotal.py sample_hash_input.txt`
+
+    `./virustotal.py sample_hash_input.txt`
 
 ## Other Info ##
 
