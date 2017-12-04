@@ -95,7 +95,28 @@ htmltable = HTML.table(table_data, header_row=HEADER_ROW)
 # ====================================================
 
 # =============== BUILDING HTML PAGE =================
-contents = html_gen.contents_start + htmltable + html_gen.contents_end
+
+cont_start = """
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<title>Virustotal Results Page</title>
+<link rel="icon"
+      type="image/png"
+      href="http://localhost:%s/favicon.png">
+</head>
+<body>
+<center>
+<h4>Hash analysis results from Virustotal.com</h4>
+""" % args.port
+
+cont_end = """
+</center>
+</body>
+</html>
+ """
+contents = "%s %s %s" % (cont_start, htmltable, cont_end)
 html_gen.str_to_file(contents, filename='index.html')
 # ====================================================
 
