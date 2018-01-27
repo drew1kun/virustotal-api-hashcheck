@@ -54,4 +54,4 @@ OR:
 If you find any issues with the script, please feel free to contact me at any time.
 
 ## Contacts ##
-Andrew Shagayev <drewshg@gmail.com>
+![Andrew Shagayev](drewshg@gmail.com)
