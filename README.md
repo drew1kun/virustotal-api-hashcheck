@@ -2,7 +2,7 @@
 This Python script allows to check list of hashes (provided in a form of text file) against the virustotal.com database
 using their API.
 
-script takes a text file as an argument, send each hash to virustotal.com via API, runs lightweight python web browser locally (at port 8000 by default) and returns the info about the hashes in the form of HTML-table with the following structure:
+Script takes a text file as an argument, sends each hash to virustotal.com via API, runs lightweight python web server locally (at port 8000 by default) and returns the info about the hashes in the form of HTML-table with the following structure:
 
 `hash_value (MD5)  | FORTINET detection names | Number of engines detected | Scan Date |`
 
