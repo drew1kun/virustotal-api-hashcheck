@@ -1,4 +1,6 @@
 # PROJECT DESCRIPTION #
+[![MIT licensed][mit-badge]][mit-link]
+
 This Python script allows to check list of hashes (provided in a form of text file) against the virustotal.com database
 using their API.
 
@@ -54,4 +56,7 @@ OR:
 If you find any issues with the script, please feel free to contact me at any time.
 
 ## Contacts ##
-![Andrew Shagayev](drewshg@gmail.com)
+Andrew Shagayev
+
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-link]: https://raw.githubusercontent.com/drew-kun/virustotal-api-hashcheck/master/LICENSE
