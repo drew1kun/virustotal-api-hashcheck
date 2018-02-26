@@ -56,7 +56,7 @@ OR:
 If you find any issues with the script, please feel free to contact me at any time.
 
 ## Contacts ##
-Andrew Shagayev
+Andrew Shagayev | [e-mail](mailto:drewshg@gmail.com)
 
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-link]: https://raw.githubusercontent.com/drew-kun/virustotal-api-hashcheck/master/LICENSE
